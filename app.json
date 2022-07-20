@@ -1,12 +1,12 @@
 {
-    "name": "ᴀɴᴏɴダᴍᴜsɪᴄ",
+    "name": "ᴅʀᴀɢᴏɴ 🐲 ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "logo": "https://telegra.ph/file/b69da6beba7bff3d9dcb8.png",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "AnonX",
+    "Dragon",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -23,11 +23,6 @@
         "value": "",
         "required": true
       },
-      "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
-        "value": "False",
-        "required": true
-      },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
@@ -36,36 +31,6 @@
       "DURATION_LIMIT_MIN": {
         "description": "Maximum duration that your bot can play in minutes.",
         "value": "90",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
-        "required": false
-      },
-      "AUTO_DOWNLOADS_CLEAR": {
-        "description": "Fill True if you want to automatically clear the downloaded files after playing.",
-        "value": "True",
-        "required": true
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
-        "required": false
-      },
-      "SPOTIFY_CLIENT_ID": {
-        "description": "Spotify Client Id",
-        "value": "",
-        "required": false
-      },
-      "SPOTIFY_CLIENT_SECRET": {
-        "description": "Spotify client secret",
-        "value": "",
-        "required": false
-      },
-      "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1356469075",
         "required": true
       },
       "STRING_SESSION": {
