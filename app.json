@@ -1,6 +1,6 @@
 {
     "name": "ᴅʀᴀɢᴏɴ ᴍᴜsɪᴄ",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
     "logo": "https://telegra.ph/file/b69da6beba7bff3d9dcb8.png",
     "keywords": [
     "python3",
@@ -38,13 +38,13 @@
         "value": "",
         "required": true
       },
-      "PING_IMG_URL": {
-        "description": "The pic which will be shown when you give the /ping cmd to the bot.",
+      "SUDO_USERS": {
+        "description": "SUDO USER ID.",
         "value": "",
-        "required": false
+        "required": True
       },
-      "START_IMG_URL": {
-        "description": "The pic which will be shown when you /start the bot in private.",
+      "COMMAND_PREFIXES": {
+        "description": "Command Prefixes ex.- . , / ! . ",
         "value": "",
         "required": false
       }
