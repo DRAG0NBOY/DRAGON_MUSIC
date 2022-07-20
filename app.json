@@ -41,7 +41,7 @@
       "SUDO_USERS": {
         "description": "SUDO USER ID.",
         "value": "",
-        "required": True
+        "required": true
       },
       "COMMAND_PREFIXES": {
         "description": "Command Prefixes ex.- . , / ! . ",
